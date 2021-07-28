@@ -730,7 +730,7 @@ nav{
   }
 
   .middle-1{
-    margin-top: 50%;
+    margin-top: 30%;
     padding: 3rem;
   }
   .middle-1 h2{
@@ -738,6 +738,7 @@ nav{
   }
   .middle-1 h3{
     font-size: 80px;
+    width: 100%;
   }
   .middle-right{
     flex-basis: 10%;
@@ -907,8 +908,9 @@ nav{
     width: 100%;
   }
   .header-heading{
+    top: 20%;
     margin-left: -18%;
-    font-size: 40px;
+    font-size: 30px;
   }
   #header::before{
     width: 180%;
@@ -935,7 +937,7 @@ nav{
     display: block;
   }
   .middle-1{
-    margin-top: 280%;
+    margin-top: 140%;
   }
   .middle-1 h3{
     font-size: 100px;
@@ -1128,9 +1130,21 @@ nav{
     font-size: 50px;
   }
   .icon-lines{
-    font-size: 30px;
+    font-size: 20px;
     line-height: 4rem;
   }
 
-
 }
+
+@media screen and (max-width: 500px) {
+  .middle-1{
+    margin-top: 180%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .middle-1{
+    margin-top: 190%;
+  }
+}
+
